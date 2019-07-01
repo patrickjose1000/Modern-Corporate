@@ -1,0 +1,109 @@
+
+* {
+	margin: 0;
+	padding:  0;
+	box-sizing: border-box;
+}
+h1 {
+	font-family: 'Rubik Mono One', sans-serif;
+	padding: 50px;
+}
+
+.Page {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #1288a9;	
+
+}
+
+.menu {
+	height: 100px;
+	background-color: #12212e;
+}
+
+.sidebar {
+	height: 300px;
+	width: 200px;
+	background-color: skyblue;
+	float: left;
+}
+
+.content {
+	color: white;
+	height: 500px;
+	background-color: #0f3f61; 
+	width: 650px;
+	float: left;
+	overflow: auto;
+}
+
+.footer {
+	clear: both;
+	width: 400px;
+	height: 400px;
+	/*height: 200px;*/
+	border: 1px solid red;
+	background-color: #D6E8FE;
+}
+
+.column {
+	background-color: #B2D6FF; 
+	height: 160px;
+	margin: 20px 1%;
+	width: 30%;
+	float: left;
+
+
+
+}
+
+/*.clear {
+	clear: both;
+}
+*/
+/*Clears both tells a block to ingore fany floats before it*/
+/*then it will recognize a block that has a height setting*/
+
+.clear:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+
+.article-image {
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+/*.avatar {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 25pc;
+	border-radius: 40px;
+/*	background-color: #D6E9FE;*/
+	background-image: url(/home/tuittday/Documents/patrick-jose/wd003/s7/assets/husky.jpg);
+	background-position: center;
+	background-size: cover;*/
+}
+
+.username {
+	margin-top: 30px;
+}
+
+.comment {
+	margin: 10px;
+	overflow: hidden; 
+
+}
+
+p {
+	overflow: hidden; 
+}
+
+#img2 {
+	float: left;
+}
